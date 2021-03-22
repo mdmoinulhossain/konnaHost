@@ -1,0 +1,33 @@
+.period div .rcorners1 {
+  background: #f6576d;
+  padding: 20px; 
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 450px;
+  color: #fff;
+}
+
+.period div .rcorners1 p{
+  font-size: 28px;
+}
+.text-muted h4{
+  color: #f6576d;
+}
+@media only screen and (max-width: 768px) {
+  .period div .rcorners1 {
+      margin-left: 70px;
+  }
+}
+
+.container .jumbotron h1 {
+  font-size:3w;
+}
+
+.pdf {
+  background-color: #9b4d9d;
+}
+.pdf:hover{
+  color: #fff;
+  background-color: #f6576d;
+}
