@@ -44,7 +44,7 @@
   <header id="header" class="sticky-top">
     <div class="container d-flex align-items-center">
 
-      <a href="<?php echo base_url('/'); ?>" class="logo mr-auto"><img src="<?php echo base_url('assets/img/logo.png'); ?>" alt="KONNA" class="img-fluid"></a>
+      <a href="<?php echo base_url('/'); ?>" class="logo mr-auto"><img src="<?php echo base_url('assets/img/logo.png'); ?>" alt="KONNA" ></a>
       <!-- logo set -->
 
 

@@ -10,9 +10,9 @@
             <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
               <h1>HI! WE ARE<br><span>Virtual Health Assistance for you.</span></h1>
               <h2>A progressive healthcare, accessible on mobile and online for Women.</h2>
-              <!--
-              <a href="#" class="btn-get-started"><img src="#" height="60" width="200"></a>
-              -->
+              
+              <a href="#" class="btn-get-started"><img src="assets/img/google.png" height="60" width="200"></a>
+             
             </div>
           </section>
         </div>
@@ -21,9 +21,9 @@
             <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
               <h1>HI! WE ARE<br><span>Virtual Health Assistance for you.</span></h1>
               <h2>A progressive healthcare, accessible on mobile and online for Women.</h2>
-              <!--
-              <a href="#" class="btn-get-started"><img src="#" height="60" width="200"></a>
-              -->
+              
+              <a href="#" class="btn-get-started"><img src="assets/img/google.png" height="60" width="200"></a>
+             
             </div>
           </section>
         </div>
@@ -32,9 +32,9 @@
             <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
               <h1>HI! WE ARE<br><span>Virtual Health Assistance for you.</span></h1>
               <h2>A progressive healthcare, accessible on mobile and online for Women.</h2>
-              <!--
-              <a href="#" class="btn-get-started"><img src="#" height="60" width="200"></a>
-              -->
+              
+              <a href="#" class="btn-get-started"><img src="assets/img/google.png" height="60" width="200"></a>
+             
               <!-- assets/img/google.png-->
             </div>
           </section>

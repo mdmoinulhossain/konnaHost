@@ -132,8 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 
-#header .logo {  
-  margin-left: -55px;
+#header .logo {
   padding: 0;
   line-height: 0;
 }
@@ -147,13 +146,10 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   #header .logo {
-    margin-left: 0;
-  }
-  #header .logo img {
-    margin-left: 140px;
-    
+    display: block;
+    margin: auto;
   }
 }
 
@@ -405,46 +401,28 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#hero{
   width: 100%;
   height: 80vh;
-  background: url("../img/carousel/carousel1.png") top center;
+  background: url("../img/carousel/carousel1.png") center;
   background-size: cover;
   position: relative;
 }
 #hero1{
   width: 100%;
   height: 80vh;
-  background: url("../img/carousel/carousel2.png") top center;
+  background: url("../img/carousel/carousel2.png") center;
   background-size: cover;
   position: relative;
 }
 #hero2{
   width: 100%;
   height: 80vh;
-  background: url("../img/carousel/carousel1.png") top center;
+  background: url("../img/carousel/carousel1.png") center;
   background-size: cover;
   position: relative;
 }
-#hero:before {
-  content: "";
-  background: rgb(8, 171, 179,0.1);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-#hero1:before{
-  content: "";
-  background: rgb(8, 171, 179,0.1);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-#hero2:before{
+#hero:before, #hero1:before, #hero2:before {
   content: "";
   background: rgb(8, 171, 179,0.1);
   position: absolute;
@@ -455,18 +433,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 992px) {
-  #hero .container {
-    padding-top: 62px;
-  }
-  #hero1 .container {
-    padding-top: 62px;
-  }
-  #hero2 .container {
+  #hero .container, #hero1 .container, #hero2 .container {
     padding-top: 62px;
   }
 }
 
-#hero h1 {
+#hero h1, #hero1 h1, #hero2 h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -474,116 +446,41 @@ h1, h2, h3, h4, h5, h6 {
   color: #08abb3;
   font-family: "Poppins", sans-serif;
 }
-#hero h1 span{
+#hero h1 span, #hero1 h1 span, #hero2 h1 span{
   color: #9b4d9d;
 }
 
-#hero h2 {
+#hero h2, #hero1 h2, #hero2 h2 {
   color: #000;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
-#hero .btn-get-started{
+#hero .btn-get-started, #hero1 .btn-get-started, #hero2 .btn-get-started{
   display: inline-block;
   padding: 10px 0;
   margin-top: 30px;
 }
 
-/* hero1 */
-#hero1 h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #08abb3;
-  font-family: "Poppins", sans-serif;
-}
-#hero1 h1 span{
-  color: #9b4d9d;
-}
-
-#hero1 h2 {
-  color: #000;
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#hero1 .btn-get-started{
-  display: inline-block;
-  padding: 10px 0;
-  margin-top: 30px;
-}
-
-/* hero2 */
-#hero2 h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #08abb3;
-  font-family: "Poppins", sans-serif;
-}
-#hero2 h1 span{
-  color: #9b4d9d;
-}
-
-#hero2 h2 {
-  color: #000;
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#hero2 .btn-get-started{
-  display: inline-block;
-  padding: 10px 0;
-  margin-top: 30px;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-  #hero1 {
-    background-attachment: fixed;
-  }
-  #hero2 {
+@media (min-width: 991px) {
+  #hero, #hero1, #hero2 {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero {
-    height: 100vh;
+  #hero, #hero1, #hero2  {
+    height: 60vh;
+    background-position: right;
   }
-  #hero h1 {
+  #hero h1 span, #hero1 h1 span, #hero2 h1 span{
+    color: #f6576d;
+  }
+  #hero h1, #hero1 h1, #hero2 h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  #hero1 {
-    height: 100vh;
-  }
-  #hero1 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero1 h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-  #hero2 {
-    height: 100vh;
-  }
-  #hero2 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero2 h2 {
+  #hero h2, #hero1 h2, #hero2 h2 {
     font-size: 18px;
     line-height: 24px;
   }
@@ -789,7 +686,7 @@ section {
 .featureCard div i{
   position: absolute;
   top: -40px;
-  right: 130px;
+  right: 40%;
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -802,7 +699,7 @@ section {
   color: #000;
   font-weight: 900;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .counts .container #Scard{
     margin-left: 0;
     margin-top:0;
